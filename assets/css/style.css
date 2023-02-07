@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #5f0d80b8, #e2d415d8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, .5);
+}
+
+.clock div {
+    font-family: 'Roboto Mono', monospace;
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(53, 51, 51);
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, .5);
+    border-radius: 8px;
+}
+
+
+#hours,
+#minutes,
+#seconds {
+    font-size: 70px;
+}
